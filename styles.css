@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    height: 100px;
+    background-color: purple;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact{
+    background-color: violet;
+    display: flex;
+}
+#contact-image img{
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+}
+#form-container form{
+    margin: 20px;
+    display: grid;
+    grid-template-rows: 2fr 2fr 4fr 2fr;
+    grid-gap: 10px;
+}
+#logo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+#logo{
+    display: flex;
+}
+#cam img{
+    height: 70vh;
+}
+#cam{
+    display: flex;
+    background-color: aqua;
+}
+#cam h3{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#works img{
+    height: 400px;
+    margin: 0.5cm;
+}
+#works{
+    background-color: chartreuse;
+    display: flex;
+    flex-wrap: wrap;
+}
+#form-container footer img{
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
